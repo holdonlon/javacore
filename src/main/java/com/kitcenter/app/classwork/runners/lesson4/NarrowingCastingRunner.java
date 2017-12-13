@@ -1,5 +1,5 @@
 package com.kitcenter.runners.classwork.lesson4;
-import com.kitcenter.app.classwork.lesson4.NarrowingCasting;
+import com.kitcenter.app.Classwork.lesson4.NarrowingCasting;
 
 public class NarrowingCastingRunner {
     public static void main(String[] args) {

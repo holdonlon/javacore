@@ -1,6 +1,6 @@
 package com.kitcenter.runners.classwork.lesson6;
 
-public class StringS1 {
+public class StringS1Runners {
     public void stringS1() {
         String s1 = "first string";
         String s2 = " and second string";
