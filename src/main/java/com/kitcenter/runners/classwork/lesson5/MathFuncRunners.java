@@ -1,4 +1,4 @@
 package com.kitcenter.runners.classwork.lesson5;
 
-public class CircleAreaRunners {
+public class MathFuncRunners {
 }
