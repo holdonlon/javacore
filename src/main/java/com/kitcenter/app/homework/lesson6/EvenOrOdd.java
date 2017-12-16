@@ -7,7 +7,7 @@ public class EvenOrOdd {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Pls enter number to check");
         double number = scanner.nextDouble();
-        if ((number % 2)==0){
+        if (checkEven(number)){
             System.out.println("even");
 
         }else{
@@ -15,5 +15,8 @@ public class EvenOrOdd {
 
         }
 
+    }
+    public static boolean checkEven(double number){
+        return (number % 2)==0;
     }
 }
