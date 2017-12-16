@@ -26,7 +26,18 @@ public class Triangle {
     }
 
     public static boolean checkSides(double sideA,double sideB,double sideC){
+        if (sideB>sideC){
+            double tmp = sideC;
+            sideC = sideB;
+            sideB = tmp;
+        }
+        if (sideA>sideC){
+            double tmp = sideA;
+            sideA=sideC;
+            sideC = tmp;
+        }
         return (sideC*sideC)==((sideA*sideA)+(sideB*sideB));
 
     }
+
 }
