@@ -16,12 +16,17 @@ public class Triangle {
         System.out.println("C^2:" +sideC*sideC);
         System.out.println("B^2:" +sideB*sideB);
         System.out.println("A^2:" +sideA*sideA);
-        boolean result= (sideC*sideC)==((sideA*sideA)+(sideB*sideB));
+        boolean result = checkSides(sideA,sideB,sideC);
         if (result){
             System.out.println("Right angled triangle");
         } else {
             System.out.println("Not right angled triangle") ;
         }
+
+    }
+
+    public static boolean checkSides(double sideA,double sideB,double sideC){
+        return (sideC*sideC)==((sideA*sideA)+(sideB*sideB));
 
     }
 }
