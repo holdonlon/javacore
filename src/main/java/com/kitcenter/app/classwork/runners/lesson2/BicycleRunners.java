@@ -1,6 +1,6 @@
 package com.kitcenter.runners.classwork.lesson2;
 
-import com.kitcenter.app.Classwork.lesson2.Bicycle;
+import com.kitcenter.app.classwork.lesson2.Bicycle;
 
 public class BicycleRunners {
     public static void main(String[] args) {

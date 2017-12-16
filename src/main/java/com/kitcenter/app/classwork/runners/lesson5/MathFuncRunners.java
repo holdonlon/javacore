@@ -1,6 +1,6 @@
 package com.kitcenter.runners.classwork.lesson5;
 
-import com.kitcenter.app.Classwork.lesson5.MathFunc;
+import com.kitcenter.app.classwork.lesson5.MathFunc;
 
 public class MathFuncRunners {
     public static void main(String[] args) {

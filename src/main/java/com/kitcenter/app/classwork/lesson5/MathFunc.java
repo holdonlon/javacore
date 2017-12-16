@@ -1,4 +1,4 @@
-package com.kitcenter.app.Classwork.lesson5;
+package com.kitcenter.app.classwork.lesson5;
 
 public class MathFunc {
   public static int counter = 10;

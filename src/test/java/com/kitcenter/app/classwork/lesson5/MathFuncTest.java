@@ -1,6 +1,6 @@
 package com.kitcenter.app.classwork.lesson5;
 
-import com.kitcenter.app.Classwork.lesson5.MathFunc;
+import com.kitcenter.app.classwork.lesson5.MathFunc;
 import org.junit.Assert;
 import org.junit.Test;
 
